@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact me</title>
+    <link rel="stylesheet" href="style.css">
+    <link type="image/png" sizes="16x16" rel="icon" href="https://img.icons8.com/fluency/96/000000/attach-resume-female.png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="wrapper">
+        <header class="header">
+            <nav class="nav-list">
+                <ul class="navigation">
+                    <li class="nav-item">
+                        <a href="index.html" class="nav-link active"> Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="about.html" class="nav-link"> About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="work.html" class="nav-link"> Work</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="contact.html" class="nav-link"> Contact</a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+        <main class="main">
+            <div class="contacts-text">
+                <h2 class="heading-md"> Let's get in touch!</h2>
+            </div>
+            <form method="POST" class="form">
+                <div class="form-mail__container">
+                    <label class="form-label"> Your email: </label>
+                    <input type="email" name="_replyto" class="form-input" required autofocus />
+                </div>
+                <div class="form-message__container">
+                    <label class="form-label"> Your message: </label>
+                    <textarea name="message" class="form-input" required></textarea>
+                </div>
+                <button type="submit" class="form-btn">Send</button>
+            </form>
+            <div class="contacts">
+                <div class="contacts-items">
+                    <div class="contact-text">Contact me for more</div>
+                    <button class="contact-btn main-btn" onclick="location.href='contact.html'">Contact</button>
+                </div>
+            </div>
+        </main>
+        <footer class="footer">
+            <div class="footer-links__top">
+                <a class="footer-link__top" href="https://www.shecodes.io/graduates/54741-nataliia-k" title="shecodes">
+                    <img src="https://img.icons8.com/color/48/000000/female-working-with-a-laptop.png" alt="" />
+                </a>
+                <a class="footer-link__top" href="https://github.com/kosh3n" title="github">
+                    <img class="footer-gif" src="icons8-github.gif" alt="icons8-github" />
+                </a>
+            </div>
+            <div class="footer-links__bottom">
+                <div class="footer-text">
+                    <span class="footer-ico">&#127800;</span> Check code for this website on <a class="footer-link__bottom" href="github">my git</a> <span class="footer-ico">&#127800;</span>
+                </div>
+            </div>
+        </footer>
+    </div>
+</body>
+
+</html>
